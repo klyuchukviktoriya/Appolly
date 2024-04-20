@@ -1,0 +1,102 @@
+/* !-------------------- desktop ----------------- */
+
+@media screen and (min-width: 1280px) {
+  .header {
+    width: 1440px;
+  }
+
+  .header-container {
+    top: 35px;
+    left: 136px;
+  }
+
+  .header-address {
+    display: flex;
+    gap: 627px;
+    margin-bottom: 15px;
+  }
+
+  .header-address-list {
+    gap: 47px;
+  }
+
+  .header-address-link {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  .header-nav {
+    width: 1170px;
+    height: 60px;
+    padding-left: 52px;
+    gap: 0;
+    border-radius: 5px;
+  }
+
+  .header-nav-left {
+    display: flex;
+    gap: 39px;
+    align-items: center;
+  }
+
+  .header-nav-item {
+    color: #232233;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-transform: uppercase;
+  }
+
+  .current-page {
+    color: #5956e9;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+  }
+
+  .header-nav-right {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-left: 359px;
+  }
+
+  .header-nav-button {
+    margin-left: 43px;
+  }
+
+  .menu-is-open {
+    display: none;
+  }
+
+  .header-logo {
+    left: 485px;
+  }
+
+  /* ! ------------------------------hero-------------------------- */
+
+  .hero {
+    padding: 220px 0 75px 0;
+    width: 1440px;
+    background-image: url(../img/heroblog-desk-1x.jpg);
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: url(../img/heroblog-desk-2x.jpg);
+    }
+  }
+
+  .hero-container {
+  }
+
+  .hero-span {
+    margin-bottom: 75px;
+  }
+}
